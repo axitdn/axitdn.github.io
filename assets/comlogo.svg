@@ -12,7 +12,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="comlogo.svg">
   <defs
      id="defs2">
@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49081429"
-     inkscape:cx="932.91495"
-     inkscape:cy="1057.6461"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="223.92315"
+     inkscape:cy="385.39996"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -41,10 +41,10 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-intersection-paths="true"
-     inkscape:window-width="1440"
-     inkscape:window-height="830"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:object-paths="true"
      inkscape:snap-midpoints="true">
@@ -112,6 +112,22 @@
        position="94.671601,227.17108"
        orientation="0,-1"
        id="guide1151" />
+    <sodipodi:guide
+       position="111.41904,270.47167"
+       orientation="1,0"
+       id="guide908" />
+    <sodipodi:guide
+       position="136.52189,270.47167"
+       orientation="1,0"
+       id="guide918" />
+    <sodipodi:guide
+       position="79.572809,164.5763"
+       orientation="1,0"
+       id="guide935" />
+    <sodipodi:guide
+       position="75.096037,160.01211"
+       orientation="0,-1"
+       id="guide937" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -129,6 +145,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       id="rect928"
+       style="fill:#000000;stroke:none;stroke-width:0.755906;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+       d="M 283.82812 500.5 L 283.82812 535 C 284.07385 530.40139 285.37153 528.18904 289.58398 525.31055 C 295.06018 521.41402 295.9375 520.326 295.9375 517.58789 C 295.9375 515.09552 294.60417 513.58594 292.42773 513.58594 C 290.18109 513.58594 288.88281 515.20143 288.88281 517.97461 L 288.88281 518.78125 L 284.17773 518.78125 C 284.14266 518.39512 284.14258 518.11508 284.14258 517.9043 C 284.14258 512.63875 287.16201 509.58398 292.32227 509.58398 C 297.55273 509.58398 300.85352 512.67322 300.85352 517.48242 C 300.85352 520.8524 299.58925 522.74886 295.27148 525.9082 C 291.62069 528.5761 290.84867 529.27742 290.2168 530.61133 L 300.74805 530.61133 L 300.74805 535 L 317.66797 535 L 317.66797 500.5 L 283.82812 500.5 z "
+       transform="scale(0.26458333)" />
     <g
        aria-label="2"
        id="text839"
@@ -137,7 +158,7 @@
     <text
        xml:space="preserve"
        id="text881"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333000000032px;white-space:pre;shape-inside:url(#rect883);" />
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect883);" />
     <g
        aria-label="2"
        id="text865"
@@ -151,27 +172,37 @@
        y="17.691002" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93902px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264581"
-       x="81.963615"
-       y="73.468239"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.939px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458"
+       x="81.963966"
+       y="73.467926"
        id="text1052"><tspan
          sodipodi:role="line"
          id="tspan1050"
-         x="81.963615"
-         y="73.468239"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93902px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264581">ALTSQUARE <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93902px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264581"
+         x="81.963966"
+         y="73.467926"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.939px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.26458">ALTSQUARE <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.939px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.26458"
    id="tspan1058">STUDIO</tspan></tspan></text>
     <g
        id="g1184">
       <path
          id="rect960"
          style="fill:#000000;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         d="m 110.12299,39.310778 v 11.820985 l 4.37803,-4.541327 c 1.25568,-1.306586 2.23959,-2.409502 2.95227,-3.308842 0.71268,-0.916307 1.23883,-1.688295 1.5782,-2.316136 0.35635,-0.62784 0.57714,-1.136758 0.66198,-1.52704 0.0848,-0.390279 0.12712,-0.721204 0.12712,-0.992703 0,-0.288468 -0.0506,-0.568759 -0.15244,-0.840259 -0.0849,-0.271499 -0.22056,-0.508995 -0.40721,-0.712618 -0.18666,-0.220594 -0.4158,-0.390231 -0.6873,-0.509013 -0.25453,-0.13575 -0.55988,-0.203605 -0.91622,-0.203605 -0.67875,0 -1.21376,0.220789 -1.60404,0.661974 -0.37331,0.441188 -0.55966,0.992386 -0.55966,1.654165 0,0.186655 0.0256,0.458078 0.0765,0.814419 z" />
-      <path
-         id="path1142"
-         style="fill:#000000;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         d="m 110.12299,26.528096 v 12.782682 c 0,-1.119931 0.17851,-2.13777 0.53485,-3.054078 0.37331,-0.916307 0.89058,-1.705517 1.55236,-2.367295 0.66178,-0.661779 1.44264,-1.170697 2.34198,-1.527041 0.91631,-0.35634 1.91744,-0.534849 3.00343,-0.534849 1.06903,0 2.05294,0.170156 2.95228,0.509529 0.91631,0.339373 1.70552,0.814364 2.3673,1.425236 0.66177,0.610873 1.17904,1.34058 1.55235,2.189014 0.37332,0.831464 0.56018,1.739165 0.56018,2.723349 0,1.052052 -0.22914,2.027613 -0.6873,2.926953 -0.44118,0.882367 -1.15367,1.79007 -2.13785,2.723345 l -3.18172,2.978113 h 6.21047 v 4.225065 h 8.83719 V 26.528096 Z" />
+         d="M 416.21289 193.25391 L 416.21289 183.06641 L 407.72266 183.06641 L 407.72266 165.74609 L 396.80664 165.74609 L 396.80664 183.06641 L 392.14844 183.06641 L 392.14844 193.25391 L 396.80664 193.25391 L 396.80664 230.32031 L 407.72266 230.32031 L 407.72266 193.25391 L 416.21289 193.25391 z "
+         transform="scale(0.26458333)" />
+      <g
+         id="g922">
+        <path
+           id="path913"
+           style="fill:#000000;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="M 444.68945 136.74414 C 442.1241 136.74414 440.10203 137.57862 438.62695 139.24609 C 437.21602 140.91358 436.51172 142.99683 436.51172 145.49805 C 436.51172 146.20351 436.6084 147.22937 436.80078 148.57617 L 421.11133 148.57617 L 421.11133 188.17188 L 432.75977 176.08984 C 437.50564 171.15157 441.22438 166.98306 443.91797 163.58398 C 446.61156 160.12078 448.60015 157.20302 449.88281 154.83008 C 451.22965 152.45714 452.06411 150.53368 452.38477 149.05859 C 452.70527 147.58352 452.86523 146.33278 452.86523 145.30664 C 452.86523 144.21637 452.67397 143.157 452.28906 142.13086 C 451.96818 141.10472 451.45545 140.2071 450.75 139.4375 C 450.04451 138.60376 449.17849 137.96261 448.15234 137.51367 C 447.19034 137.0006 446.03625 136.74414 444.68945 136.74414 z "
+           transform="scale(0.26458333)" />
+        <path
+           id="path1142"
+           style="fill:#000000;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="M 421.11133 100.26367 L 421.11133 131.76562 C 422.01181 130.4541 422.98268 129.20482 424.10156 128.08594 C 426.60278 125.58473 429.55405 123.66127 432.95312 122.31445 C 436.41634 120.96766 440.20016 120.29297 444.30469 120.29297 C 448.34512 120.29297 452.06381 120.93608 455.46289 122.21875 C 458.92611 123.50142 461.90894 125.29666 464.41016 127.60547 C 466.91133 129.91428 468.86641 132.67223 470.27734 135.87891 C 471.68832 139.02145 472.39453 142.45212 472.39453 146.17188 C 472.39453 150.14812 471.52849 153.83529 469.79688 157.23438 C 468.12942 160.5693 465.43653 164.00001 461.7168 167.52734 L 449.69141 178.7832 L 473.16406 178.7832 L 473.16406 194.75195 L 506.56445 194.75195 L 515.98828 194.75195 L 515.98828 100.26367 L 506.56445 100.26367 L 421.11133 100.26367 z "
+           transform="scale(0.26458333)" />
+      </g>
       <g
          aria-label="alt"
          id="text883"
@@ -185,10 +216,6 @@
            d="M 101.80423,39.217679 V 60.165237 H 99.013702 V 39.217679 Z"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.583918"
            id="path891" />
-        <path
-           d="m 108.24105,50.689847 v 9.47539 h -2.79053 v -9.47539 h -1.19063 v -2.604492 h 1.19063 v -4.427637 h 2.79053 v 4.427637 h 2.17041 v 2.604492 z"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.583918"
-           id="path893" />
       </g>
       <rect
          style="fill:#ff8c00;stroke:#cccccc;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -205,5 +232,49 @@
          x="91.784187"
          y="48.436119" />
     </g>
+    <g
+       aria-label="2"
+       id="text926"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       transform="matrix(0.95658194,0,0,0.95658194,8.7759136,6.6604319)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="15.874999"
+       y="118.53333"
+       id="text943"><tspan
+         sodipodi:role="line"
+         id="tspan941"
+         x="15.874999"
+         y="118.53333"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Futura PT';-inkscape-font-specification:'Futura PT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:'Futura PT';-inkscape-font-specification:'Futura PT, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan889">2</tspan> altsquare</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="49.477081"
+       y="159.54375"
+       id="text929"><tspan
+         sodipodi:role="line"
+         id="tspan927"
+         x="49.477081"
+         y="159.54375"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Fax Sans';-inkscape-font-specification:'Fax Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="80.073944"
+       y="171.18613"
+       id="text884"><tspan
+         sodipodi:role="line"
+         id="tspan882"
+         x="80.073944"
+         y="171.18613"
+         style="stroke-width:0.264583"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:'Futura PT';-inkscape-font-specification:'Futura PT, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan886">ALTSQUARE</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.5833px;font-family:'Futura PT';-inkscape-font-specification:'Futura PT, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan888">STUDIO</tspan></tspan></text>
   </g>
 </svg>
