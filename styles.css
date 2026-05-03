@@ -309,6 +309,40 @@ section {
 .mockup-img {
     width: 100%;
     display: block;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.mockup-img.active {
+    opacity: 1;
+    position: relative;
+}
+
+.screenshot-slider {
+    position: relative;
+    min-height: 400px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.dot-item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.dot-item.active,
+.dot-item:hover {
+    background: var(--accent-blue);
 }
 
 /* Features Grid */

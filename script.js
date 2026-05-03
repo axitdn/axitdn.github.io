@@ -51,4 +51,43 @@ document.addEventListener('DOMContentLoaded', () => {
             orb2.style.transform = `translate(${x * 40}px, ${y * 40}px)`;
         }
     });
+
+    // Screenshot slider
+    const slides = document.querySelectorAll('.mockup-img');
+    const dots = document.querySelectorAll('.dot-item');
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        slides[currentSlide].classList.remove('active');
+        dots[currentSlide].classList.remove('active');
+        
+        currentSlide = index;
+        
+        slides[currentSlide].classList.add('active');
+        dots[currentSlide].classList.add('active');
+    }
+
+    function nextSlide() {
+        const next = (currentSlide + 1) % slides.length;
+        showSlide(next);
+    }
+
+    function startSlider() {
+        slideInterval = setInterval(nextSlide, 3000);
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            const slideIndex = parseInt(dot.dataset.slide);
+            showSlide(slideIndex);
+            clearInterval(slideInterval);
+            startSlider();
+        });
+    });
+
+    // Start auto slider
+    if (slides.length > 1) {
+        startSlider();
+    }
 });
