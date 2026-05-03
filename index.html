@@ -1,101 +1,201 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Xếp hình</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ågen | Modern Desktop Client for AI Coding Agents</title>
+    <meta name="description" content="Fully compatible with Agent Client Protocol (ACP) and Model Context Protocol (MCP)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
 
-        <meta name="author" content="SoonLaunch">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon-48-bluex.png">
-        <!-- Place favicon.ico in the root directory -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="public/app-icon.png" alt="Ågen Logo" class="logo-img">
+                <span class="logo-text">Ågen</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#agents">Agents</a>
+                <a href="#install">Install</a>
+                <a href="https://github.com/axitdn/agen-app" target="_blank" class="github-link">GitHub</a>
+            </div>
+        </div>
+    </nav>
 
-		<!-- ========================= CSS here ========================= -->
-		<link rel="stylesheet" href="assets/css/bootstrap-4.5.0.min.css">
-        <link rel="stylesheet" href="assets/css/lineicons.css">
-		<link rel="stylesheet" href="assets/css/animate.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-badge">Fully compatible with ACP & MCP</div>
+                <h1 class="hero-title">The Control Center for <br><span class="gradient-text">AI Coding Agents</span></h1>
+                <p class="hero-subtitle">Connect, interact, and manage multiple AI agents seamlessly from a blazing-fast, unified native desktop interface.</p>
+                <div class="hero-actions">
+                    <a href="https://github.com/axitdn/agen-app/releases" class="btn btn-primary">Download Latest Release</a>
+                    <a href="#install" class="btn btn-secondary">Installation Guide</a>
+                </div>
+                <div class="platform-support">
+                    <span>macOS</span> • <span>Windows</span> • <span>Linux</span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="app-mockup">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <img src="public/screenshot-00.png" alt="Ågen App Interface" class="mockup-img">
+                </div>
+            </div>
+        </section>
 
-        <!-- ========================= main start ========================= -->
-        <main class="main-06" style="height: 986px;">
-            <!-- header start  -->
-            <div class="header header-06">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <a href="#" class="logo"> <img src="assets/img/logo2x.png" alt=""></a>
+        <section class="features" id="features">
+            <h2 class="section-title">Highlight Features</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Multi-Agent & Session</h3>
+                    <ul>
+                        <li>Connect to any ACP compliant agent</li>
+                        <li>Store, manage, and resume sessions</li>
+                        <li>Flexibly switch working modes (Ask, Code, Architect)</li>
+                    </ul>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon">📝</div>
+                    <h3>Intelligent Chat Interface</h3>
+                    <ul>
+                        <li>Markdown & full syntax highlighting</li>
+                        <li>View AI thinking & reasoning process</li>
+                        <li>Slash commands (/) for quick access</li>
+                        <li>Permission control for sensitive actions</li>
+                    </ul>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Productivity Tools</h3>
+                    <ul>
+                        <li>Wiki System for knowledge base management</li>
+                        <li>Kanban Board for task management</li>
+                        <li>Powerful Cron Jobs manager</li>
+                        <li>Built-in File Editor & PDF support</li>
+                    </ul>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Monitoring & Extensibility</h3>
+                    <ul>
+                        <li>Real-time JSON-RPC Traffic Monitor</li>
+                        <li>Background Service management</li>
+                        <li>MCP Support (Model Context Protocol)</li>
+                        <li>Environment variable configuration per agent</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="agents" id="agents">
+            <div class="agents-container glass-panel">
+                <h2 class="section-title">Pre-configured Agents</h2>
+                <p class="section-desc">Ågen comes pre-configured for quick connection with today's most popular agents.</p>
+                <div class="agents-table-wrapper">
+                    <table class="agents-table">
+                        <thead>
+                            <tr>
+                                <th>Agent</th>
+                                <th>Package (NPM/CLI)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>GitHub Copilot</td><td><code>@github/copilot-language-server</code></td></tr>
+                            <tr><td>Claude Code</td><td><code>@zed-industries/claude-code-acp</code></td></tr>
+                            <tr><td>Gemini CLI</td><td><code>@google/gemini-cli</code></td></tr>
+                            <tr><td>Qwen Code</td><td><code>@qwen-code/qwen-code</code></td></tr>
+                            <tr><td>Auggie CLI</td><td><code>@augmentcode/auggie</code></td></tr>
+                            <tr><td>Codex CLI</td><td><code>@zed-industries/codex-acp</code></td></tr>
+                            <tr><td>OpenClaw</td><td><code>openclaw</code></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="installation" id="install">
+            <h2 class="section-title">Getting Started</h2>
+            
+            <div class="prerequisites-section">
+                <h3>Prerequisites</h3>
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="terminal-title">Environment Setup</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-block">
+                            <p class="comment"># Node.js (Version 18+ required for Copilot, Claude, Gemini)</p>
+                            <p><span class="prompt">$</span> node -v && npx -v</p>
                         </div>
-                        <div class="col-md-8">
-                            <div class="header-right text-right">
-                                <a href="#">Say hello! xephinh.vn</a>
-                            </div>
+                        <div class="terminal-block">
+                            <p class="comment"># Python & uv (Required for OpenClaw and some MCP servers)</p>
+                            <p class="comment"># macOS / Linux:</p>
+                            <p><span class="prompt">$</span> curl -LsSf https://astral.sh/uv/install.sh | sh</p>
+                            <p class="comment"># Windows (PowerShell):</p>
+                            <p><span class="prompt">&gt;</span> powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- header end  -->
-            <!-- ========================= main-wrapper start ========================= -->
-            <div class="main-wrapper demo-06">
-                <!-- hero-area start  -->
-                <div class="hero-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <!-- heading start  -->
-                                <div class="heading">
-                                    <h1 class="text-white wow fadeInUp" data-wow-delay=".2s">We Are <br> Coming Soon</h1>
-                                </div>
-                                <!-- heading end  -->
-                            </div>
-                            <div class="col-xl-7 col-lg-7">
-                                <!-- countdown start  -->
-                                <div class="wow fadeInRight" data-wow-delay=".4s" data-countdown="2021/10/01"></div>
-                                <!-- countdown end  -->
-                            </div>
-                            <div class="col-xl-5 col-lg-5">
-                                <!-- desc strat  -->
-                                <p class="wow fadeInLeft" data-wow-delay=".4s">We're strong believers that the best solutions come from gathering new insights and pushing conventional boundaries.</p>
-                                <!-- desc end  -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- hero-area end  -->
-            <!-- ========================= main-wrapper end ========================= -->
-            <!-- footer start  -->
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <div class="copyright wow fadeInLeft" data-wow-delay=".2s">
-                                <p>Part of <a href="htts://xephinh.vn" rel="nofollow">Xep hinh</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="credit wow fadeInRight" data-wow-delay=".4s">
-                                <p>2020 &copy; <a rel="nofollow" href="https://xephinh.vn">Xephinh.vn</a></p>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="download-section" style="margin-bottom: 4rem;">
+                <div class="glass-panel config-card">
+                    <h3>📥 Installation</h3>
+                    <ol class="config-list" style="margin-left: 1.5rem; list-style: decimal;">
+                        <li style="margin-bottom: 0.5rem;">Go to the <a href="https://github.com/axitdn/agen-app/releases" target="_blank" style="color: #60A5FA; text-decoration: none;">Releases</a> page.</li>
+                        <li style="margin-bottom: 0.5rem;">Download the installer for your operating system (macOS, Windows, or Linux).</li>
+                        <li style="margin-bottom: 0.5rem;">Install and run Ågen!</li>
+                    </ol>
+                    <p class="config-note" style="margin-top: 1rem;">
+                        <em>Note: The application has built-in auto-update functionality, so you will always be on the latest version.</em>
+                    </p>
                 </div>
             </div>
-            <!-- footer end  -->
-        </main>
-        <!-- ========================= main end ========================= -->
-        
-		<!-- ========================= JS here ========================= -->
-		<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-		<script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
-		<script src="assets/js/popper.min.js"></script>
-		<script src="assets/js/bootstrap-4.5.0.min.js"></script>
-        <script src="assets/js/countdown.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-		<script src="assets/js/main.js"></script>
-    </body>
+
+            <div class="config-section">
+                <div class="glass-panel config-card">
+                    <h3>🛠️ Configuration Location</h3>
+                    <ul class="config-list">
+                        <li><strong>All Platforms (macOS, Windows, Linux):</strong> <code>~/.agen/</code></li>
+                    </ul>
+                    <p class="config-note">
+                        Edit <code>agents.json</code> for ACP agents or <code>mcp-servers.json</code> for MCP extensions, or use the built-in UI!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="public/app-icon.png" alt="Ågen Logo" width="32">
+                <span>Ågen</span>
+            </div>
+            <p>Developed with ❤️ for the AI and Developer community.</p>
+            <p class="license">Released under the MIT License.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
